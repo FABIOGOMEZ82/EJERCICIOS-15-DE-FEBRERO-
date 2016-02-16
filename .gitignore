@@ -1,0 +1,26 @@
+//area de un  circulo
+var radio = 40;
+areacirculo=Math.PI*Math.pow(radio,2);
+console.log("el area del circulo es : ", areacirculo);
+
+//area de un  triangulo 
+var base = 30;
+var altura= 50;
+var area;
+area = (base*altura)/2;
+console.log("el areaa del triangulo es : ", area);
+
+//area de un cuadrado 
+var lado=20;
+var area;
+area = (lado * lado );
+console.log("el areaa del cuadrado es : ", area);
+ 
+//numero de vocales 
+var vocales = "murcielago";
+var arrvocales = [["a", 0], ["e", 0], ["i", 0] ["o", 0], ["u", 0]];
+vocales = vocales .toLowerCase();
+for (var i = 0; i< vocales.length; i++)
+{
+console.log(vocales.charAt(i));  
+}
